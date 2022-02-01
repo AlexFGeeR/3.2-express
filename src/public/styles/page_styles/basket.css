@@ -1,0 +1,96 @@
+main {
+	display: flex;
+	justify-content: center;
+	background-color: #252526;
+	width: 100%;
+	min-height: 863px;
+}
+
+.basket-content {
+	margin-top: 25px;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.basket-categories__text,
+.basket-item__name,
+.basket-item__count,
+.basket-item__price {
+	font-size: 18px;
+}
+
+.basket-wrapper {
+	margin-top: 70px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 1068px;
+}
+
+.basket-categories {
+	width: 878px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.basket-hr {
+	width: 100%;
+	border: 1px solid #3C3D41;
+}
+
+.basket-item__name,
+.basket-item__count,
+.basket-item__price {
+	text-align: center;
+}
+
+.basket-item__name {
+	width: 173px;
+}
+
+.basket-item__count {
+	width: 92px;
+}
+
+.basket-item__price {
+	width: 155px;
+}
+
+.basket-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 1070px;
+	min-height: 609px;
+}
+
+.basket-item {
+	display: flex;
+	justify-content: space-between;
+	width: 878px;
+}
+
+.title {
+	font-size: 22px;
+	width: 65px; /* сделано для ровности отображения, ибо не знал как добиться этого эффекта по иному. */
+}
+
+.basket-item {
+	margin-bottom: 50px;
+}
+
+
+.basket-results {
+	display: flex;
+	flex-direction: column;
+}
+
+.basket-results__hr {
+	width: 1068px;
+	border: 1px solid #3C3D41;
+}
+
+.basket-results__text {
+	align-self: flex-end;
+	margin-right: 15px;
+}

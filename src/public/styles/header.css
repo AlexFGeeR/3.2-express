@@ -1,0 +1,63 @@
+/* файл со стилями общего header'а */
+
+header {
+	padding-top: 18px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: rgba(30, 31, 35, 0.97);
+	height: 58px;
+}
+
+.company-logotype {
+	width: 210px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.company-logotype__img {
+	margin-top: 3px;
+	width: 40px;
+	height: 40px;
+}
+
+.company-logotype__text {
+	margin-top: 6px;
+}
+
+.company-logotype__text,
+.user-interaction__nav-link {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.user-interaction {
+	width: 535px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.user-interaction__nav {
+	width: 370px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.user-interaction__nav-link {
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.user-interaction__basket,
+.user-interaction__basket-img {
+	width: 30px;
+	height: 30px;
+}
+
+.header__hr {
+	width: 99.8%;
+	border: 2px solid #3C3D41;
+}
+

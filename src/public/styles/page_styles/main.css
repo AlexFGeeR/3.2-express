@@ -1,0 +1,48 @@
+/* файл со стилями главной страницы */
+
+main {
+	display: flex;
+	justify-content: center;
+	height: 863px;
+	padding-left: 132px;
+	background: radial-gradient(23.7% 45.12% at 73.7% 45.8%, #3F4044 0%, rgba(30, 31, 35, 0.97) 100%);
+}
+
+.target-message {
+	width: 630px;
+	height: 336px;
+}
+
+.target-message__title {
+	font-weight: 800;
+	font-size: 64px;
+	color: #ffffff;	
+}
+
+.target-message__subtitle {
+	font-weight: 400;
+	font-size: 24px;
+	color: #ffffff;
+	margin: 13px 0 160px 0;
+}
+
+.target-message__link {
+	text-decoration: none;
+	display:  flex;
+	justify-content: space-between;
+	width: 200px;
+}
+
+.target-message__link-hr {
+	width: 100px;
+	border: 1px solid #F9A968;
+}
+
+.target-message__link-text {
+	font-weight: 500;
+	color: #F9A968;
+}
+
+.newest-img {
+	padding-right: 175px;
+}
